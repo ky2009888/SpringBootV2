@@ -7,5 +7,7 @@
     <artifactId>SpringBootV2</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <description>SpringBoot 2.4.1的学习案例</description>
+    <modules>
+        <module>SpringBoot2C1</module>
+    </modules>
 </project>
