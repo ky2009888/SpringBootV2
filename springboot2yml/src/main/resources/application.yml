@@ -1,0 +1,22 @@
+person:
+  name: toms
+  age: 21
+  intrest:
+    - 篮球
+    - 排球
+    - 足球
+    - 羽毛球
+    - 乒乓球
+  birthday: 2020/12/27
+  score:
+    english: 87
+    chinese: 99
+  boss: true
+  salary:
+    - 999999.99
+  allPets:
+    dog:
+      - { name: dahei , age: 3 }
+    cat:
+      - { name: huahua,age: 1 }
+
