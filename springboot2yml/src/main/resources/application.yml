@@ -1,5 +1,4 @@
 person:
-  name: toms
   age: 21
   intrest:
     - 篮球
@@ -19,4 +18,5 @@ person:
       - { name: dahei , age: 3 }
     cat:
       - { name: huahua,age: 1 }
+  name: jitom
 
