@@ -1,9 +1,6 @@
 package com.ky2009666.apps.parammappingshow.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -23,11 +20,12 @@ public class ParamShowController {
      * @return userMap
      */
     @GetMapping("/user/{id}/{name}")
-    public Map<String, String> showParam(@PathVariable("id") Integer id, @PathVariable("name") String name) {
+    public Map<String, String> showParam(@PathVariable("id") Integer id, @PathVariable("name") String name, @CookieValue("name") String name1) {
         Map<String, String> userMap = new HashMap();
         userMap.put("id", String.valueOf(id));
         userMap.put("name", name);
         userMap.put("age", "19");
+        userMap.put("name1", name1);
         return userMap;
     }
 }
