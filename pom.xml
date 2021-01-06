@@ -10,6 +10,7 @@
     <modules>
         <module>SpringBoot2C1</module>
         <module>Show</module>
+        <module>SpringBoot2MybatisPlus</module>
     </modules>
     <dependencyManagement>
         <dependencies>
